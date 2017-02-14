@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.jpmorgan.digital.domain.ProductDomain</OriginalElement>
+  <nodes>
+    <node x="532.4231805929919" y="270.0">com.jpmorgan.digital.helper.MessageProcessingHelper</node>
+    <node x="572.9231805929919" y="146.0">com.jpmorgan.digital.dto.MessageProcessedDTO</node>
+    <node x="0.0" y="961.0">com.jpmorgan.digital.helper.LogHelper</node>
+    <node x="62.25" y="764.5">com.jpmorgan.digital.model.ProductModel.UpdateType</node>
+    <node x="478.0" y="528.5">com.jpmorgan.digital.service.MessageProcessingService</node>
+    <node x="109.49479166666663" y="213.0">com.jpmorgan.digital.domain.ProductDomain</node>
+    <node x="606.4231805929919" y="0.0">com.jpmorgan.digital.dto.MessageProcessedDTO.MessageType</node>
+    <node x="0.0" y="450.0">com.jpmorgan.digital.model.ProductModel</node>
+    <node x="323.58333333333326" y="709.0">com.jpmorgan.digital.service.impl.MessageProcessingServiceImpl</node>
+    <node x="133.24999999999997" y="0.0">com.jpmorgan.digital.domain.SaleDomain</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.jpmorgan.digital.service.impl.MessageProcessingServiceImpl" target="com.jpmorgan.digital.service.MessageProcessingService">
+      <point x="100.33333333333337" y="-103.5" />
+      <point x="574.4166666666666" y="684.0" />
+      <point x="581.0" y="684.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.domain.SaleDomain" target="com.jpmorgan.digital.domain.ProductDomain">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.model.ProductModel.UpdateType" target="com.jpmorgan.digital.model.ProductModel">
+      <point x="0.0" y="-48.0" />
+      <point x="-114.25" y="104.5" />
+    </edge>
+    <edge source="com.jpmorgan.digital.helper.MessageProcessingHelper" target="com.jpmorgan.digital.dto.MessageProcessedDTO">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.service.impl.MessageProcessingServiceImpl" target="com.jpmorgan.digital.model.ProductModel">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.service.impl.MessageProcessingServiceImpl" target="com.jpmorgan.digital.domain.SaleDomain">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.dto.MessageProcessedDTO.MessageType" target="com.jpmorgan.digital.dto.MessageProcessedDTO">
+      <point x="33.75" y="48.0" />
+      <point x="707.6731805929919" y="121.0" />
+      <point x="724.4231805929919" y="121.0" />
+      <point x="50.5" y="-37.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.dto.MessageProcessedDTO" target="com.jpmorgan.digital.dto.MessageProcessedDTO.MessageType">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.domain.ProductDomain" target="com.jpmorgan.digital.domain.SaleDomain">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.jpmorgan.digital.model.ProductModel" target="com.jpmorgan.digital.domain.ProductDomain">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3306595365418895" x="506.0" y="551.0" />
+  <SelectedNodes>
+    <node>com.jpmorgan.digital.helper.MessageProcessingHelper</node>
+    <node>com.jpmorgan.digital.dto.MessageProcessedDTO</node>
+    <node>com.jpmorgan.digital.dto.MessageProcessedDTO.MessageType</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
