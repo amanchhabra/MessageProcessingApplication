@@ -53,7 +53,7 @@ ________________________________________________________________________________
                Method and Description                                                                              |
 -------------------------------------------------------------------------------------------------------------------|
 void	                    processMessage(java.lang.String message)                                               |
-                            To calculate the Dividend Yield of provided Stock instance                             |
+                            To process message and implement instructions provided in message                      |
 -------------------------------------------------------------------------------------------------------------------|
 
 ## Class Diagram
